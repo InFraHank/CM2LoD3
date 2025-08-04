@@ -1,4 +1,4 @@
-# Reconstructing LoD3 Building Models Using Terrestrial Laser Scanner
+# CM2LoD3: Reconstructing LoD3 Building Models Using Semantic Conflict Maps
 
 This repository contains the complete implementation for CM2LoD3: Reconstructing LoD3 Building Models Using Semantic Conflict Maps enabling automatic LoD3 (Level of Detail 3) building model reconstruction using terrestrial laser scanner data.
 
