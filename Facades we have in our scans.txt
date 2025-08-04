@@ -1,0 +1,8 @@
+Facades we have in our scans:
+
+Haupteingang:DEBY_LOD2_4959457_e030de07-0827-4f7b-9657-9070e768b8f7
+
+Rechts vom Haupteingang:DEBY_LOD2_4959457_b8dae246-a9db-4b76-bb02-296cf532f0da
+
+90° zum Haupteingang:DEBY_LOD2_4959457_7c02b6d4-05fc-4e6a-a3f1-44a9bb8d95a4
+
