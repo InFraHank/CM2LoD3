@@ -13,7 +13,7 @@ The published paper can be found under `!Arxiv link!`.
 
 ## Project Overview
 
-This project develops a complete processing chain for automatic LoD3 reconstruction, implementing a novel multimodal approach that combines conflict map analysis with image-based segmentation using Bayesian networks for probabilistic fusion.
+This project develops a complete processing chain for automatic LoD3 reconstruction, implementing a novel multimodal approach that combines conflict map analysis with image-based segmentation and semantic fusion.
 
 ![Workflow](images/workflow.png)
 
@@ -23,7 +23,7 @@ Our approach builds upon the Scan2LoD3 method, implementing a three-branch proce
 
 1. **Conflict Map Processing** - Using terrestrial laser scanner data to generate probabilistic conflict maps
 2. **Image-based Segmentation** - Mask R-CNN for facade element detection  
-3. **Bayesian Fusion** - Probabilistic combination of multimodal evidence
+3. **Semantic Fusion** - Combination of multimodal evidence
 
 ![UNet Architecture](images/UNet.png)
 
@@ -58,7 +58,7 @@ Our approach builds upon the Scan2LoD3 method, implementing a three-branch proce
 ### Part 3: Semantic Fusion & Probabilistic Integration
 **File:** `Scan2LoD_Predictor.ipynb`
 
-Implements the core Bayesian network fusion:
+Implements the core semantic network fusion:
 
 ```python
 def combine_predictions_linear(unet_probs, window_probs, door_probs):
@@ -178,7 +178,7 @@ pip install jupyter notebook
 ## Technical Innovation
 
 ### Probabilistic Fusion Framework
-Our Bayesian network approach enables:
+Our Semantic network approach enables:
 - **Uncertainty Quantification:** Each prediction includes confidence estimates
 - **Multimodal Integration:** Principled combination of geometric and visual evidence  
 - **Robust Reconstruction:** Graceful handling of sensor limitations and occlusions
